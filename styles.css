@@ -1,0 +1,73 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Introduction Section */
+.intro {
+    background-color: #e3f2fd;
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid #90caf9;
+}
+
+/* Cards Section */
+.cards {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+}
+
+.card {
+    background-color: white;
+    border: 2px solid #ccc;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Styled Button */
+.styled-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: 2px solid #333;
+    background-color: #ff9800;
+    color: white;
+    cursor: pointer;
+}
+
+.styled-btn:hover {
+    background-color: #e68900;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
